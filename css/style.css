@@ -7,3 +7,99 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.wrapper {
+  height: 100vh;
+  width: 100%;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.displayNone {
+  display: none;
+}
+.displayFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapperNav {
+  height: 50px;
+  width: 100%;
+  padding: 0 100px;
+  line-height: 50px;
+  margin: 20px 0;
+}
+nav ul li a {
+  color: rgb(139, 149, 158);
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: #000;
+}
+.navFloatLeft {
+  float: left;
+  text-transform: uppercase;
+}
+.navFloatLeft ul li {
+  margin-right: 35px;
+}
+.navFloatRight {
+  float: right;
+  text-transform: capitalize;
+}
+.navFloatRight ul li {
+  margin-left: 35px;
+}
+.navFloatRight ul li.withDropdown {
+  position: relative;
+}
+.navFloatRight ul.dropdown {
+  position: absolute;
+  top: 50px;
+  left: -20px;
+  white-space: nowrap;
+  box-shadow:2px 2px 5px #808080;
+}
+.navFloatRight ul.dropdown.lang {
+  width: 50px;
+  left: -10px;
+}
+.navFloatRight ul.dropdown li {
+  line-height: 18px;
+  margin: 0;
+  padding: 15px;
+  display: block;
+}
+.navFloatRight ul.dropdown li span {
+  color: #eb008d;
+  font-size: 10px;
+  position: relative;
+  top: -10px;
+}
+.navFloatRight ul li a.download {
+  background-color: #eb008d;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #fff;
+}
+.logo {
+  width: 150px;
+  height: auto;
+}
+.logo img {
+  width: 100%;
+  vertical-align: middle;
+}
+i.little {
+  font-size: 10px;
+  color: rgb(139, 149, 158);
+}
+.active {
+  color: #000;
+}
